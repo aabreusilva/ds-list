@@ -18,8 +18,6 @@ public class Game {
     //Para que esse id seja incrementado pelo banco de dados.
     //Indicando pro banco gerar o id.
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-
-
     private Long id;
     private String title;
 
